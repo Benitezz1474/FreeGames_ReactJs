@@ -10,7 +10,6 @@ export const freeGame=async()=>{
     
 const req = await fetch('https://free-to-play-games-database.p.rapidapi.com/api/filter?tag=3d.mmorpg.fantasy.pvp', options)
 const data = await req.json();
-console.log(data)
 return data
 
 }
